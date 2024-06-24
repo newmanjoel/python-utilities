@@ -5,12 +5,15 @@ authors = [
   { name="Joel", email="Joel@example.com" },
 ]
 description = "A utility package just to keep everything organized"
-readme = "README.md"
+readme = {file="README.md",content-type="text/markdown"}
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+	"colorlog"
 ]
 
 [project.urls]
