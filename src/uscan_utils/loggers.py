@@ -1,7 +1,6 @@
 import logging
 import colorlog
 
-print(f"loaded {__name__}")
 
 def setup_common_logger(logger: logging.Logger) -> logging.Logger:
     """
